@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biba App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Roboto:300,400" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+       <header>
+            <h1>Welcome in Biba Work App</h1>
+        </header>
+        <section class="app-body">
+            <div class="content">
+                <header>
+                    <h2>What time did you start today?</h2>
+                </header>
+                <div class="time">
+                    <input type="text" id="timeStarted" class="time-value" placeholder="hh:mm">
+                </div>
+            </div>
+            <div class="content">
+                <header>
+                    <h2>What time did you finish today?</h2>
+                </header>
+                <div class="time">
+                    <input type="text" id="timeFinished" class="time-value" value="" placeholder="hh:mm">
+                </div>
+            </div>
+            <div class="button-place">
+                <input type="submit" value="Submit" id="btn" class="submit-button">
+            </div>
+        </section>
+        <section class="result app-body">
+            <header>
+                <h2>Results</h2>
+            </header>
+            <div id="result" class="result-content">
+                <p>You have worked <span id="worked">...</span> today.</p>
+                <p>You have earned <span id="earned">...</span> &pound; today.</p>
+                <p>Enjoy the rest of your day.</p>
+            </div>
+            <div id="errorPlace" class="error hidden">
+                <p>Try again.</p>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2017 Pawel Marciniuk</p>
+        </footer>
+    </main>
+
+<script src="js/main.js"></script>
+</body>
+</html>

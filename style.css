@@ -1,0 +1,129 @@
+html, body {
+    height: 100%;
+}
+
+h1, h2 {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, .time-value, .submit-button {   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/background.jpg) no-repeat;
+    background: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 rgba(0, 0, 0, 0.1);
+}
+
+main header {
+    margin: 0;
+    text-align: center;
+}
+
+main header h1 {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.app-body {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.content h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.time {
+    text-align: center;
+    width: 70vh;
+}
+
+.time-value {
+    margin: 0 3px;
+}
+
+.time-value, .submit-button {
+    max-width: 75px;
+    padding: 3px;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    background: transparent;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button-place {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+    align-self: flex-end;
+}
+
+.submit-button {
+    max-width: 110px;
+    border: 1px solid rgba(38, 37, 37, 0.51);
+    transition: 0.2s ease-in-out;
+    padding: 5px;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.result header h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.result-content p {
+    font-size: 18px;
+    width: 70vh;
+    text-align: center;
+}
+
+.error p {
+    font-size: 26px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
